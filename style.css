@@ -29,7 +29,8 @@ h3{
   border-bottom: 5px double #ed6ab4;
 }
 
-body p {
+body p,
+body li{
   font-size: 25px;
   padding:10px;
   margin: 10px;

@@ -1,0 +1,47 @@
+<DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto 02</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="dados-atletas.js"></script>
+</head>
+<body>
+    <header>
+      <h1>Projeto de Certificação 02 - Trilha 01 - Jornada DevStart</h1>
+    </header>
+    <main>
+      <h2>Descrição:</h2>
+      <p>Elaboração da classe Atleta, bem como a instânciação de atributos e métodos de instância correspondentes para retorno de informações como: apresentação de nome, idade, peso, altura, categoria de participação, cálculo de índice de massa corporal, cálculo de média conforme critérios do projeto https://github.com/SantiagoBez/notas-atletas/tree/main, entre outros.</p>
+      <h2>Status:</h2>
+      <p>A funcionalidade atende aos objetivos, porém segue em desenvolvimento de melhorias e otimizações.</p>
+      <h2>Funcionalidades:</h2>
+      <p>a classe possui estrutura completa, na qual seus atributos e métodos estarão listados a seguir:</p>
+        <h3>Atributos/Propriedades</h3>
+        <ul>
+          <li>Nome: recebe o nome do atleta, deve ser indicado durante a instânciação;</li>
+          <li>Idade: recebe a idade do atleta, indicado durante a instânciação;</li>
+          <li>Peso: recebe o peso do atleta, indicado durante a instânciação;</li>
+          <li>Altura: recebe a altura do atleta, indicado durante a instânciação, obs.: deve ser registrado em formato decimal separado por ponto, conforme o exemplo a seguir => (1.60);</li>
+          <li>Notas: recebe as notas obtidas pelo atleta, indicado durante a instânciação, obs.: deve ser registrado em formato de matriz ([nota1, nota2, notaN]);</li>
+        </ul>
+        <h3>Métodos:</h3>
+        <ul>
+          <li>constructor(): usado para criar um novo objeto de representação de atletas por meio da instânciação;</li>
+          <li>calculaCategoria(): efetua a identificação e classificação da categoria do atleta por meio da verificação da faixa de idade, usado estruturas condicionais if / else if / else;</li>
+          <li>calculaIMC(): identifica o índice de massa corporal do atleta correspondente, obtido por meio da fórmula: peso/(altura)²</li>
+          <li>calculaMediaValida(): realiza o cálculo da média das notas obtidas pelo atleta correspondente, respeitando o critério estabelecido no projeto anterior, qual seja, são consideradas somente as notas intermediárias (excluí-se a maior e menor nota);</li>
+          <li>obtemInfoAtleta(): sequência de métodos utilizados para resgatar uma das informações registradas durante a instânciação, por exemplo: obtemNomeAtleta() - retorna o nome do atleta, demais métodos seguem o mesmo padrão, onde info deve ser substituída pela informação desejada.</li>
+        </ul>
+      <h2>Tecnologias:</h2>
+      <p>JavaScript, conceitos abordados: declaração de classes, instânciação de novos objetos por meio de função construtura, declaração de métodos de instância e propriedades de instância, entre outros.</p>
+      <p>HTML, conceitos abordados: uso de tags semânticas, uso de estruturas de ordenação (listas), entre outros.</p>
+      <p>CSS, conceitos abordados: declaração de regras css, atributos, propriedades comuns, etc, estilização por classe e id, modelo box model, combinação de seletores, entre outros.</p>
+      <h2>Autor:</h2>
+      <a href="https://github.com/SantiagoBez"><p>@SantiagoBez</p></a>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
